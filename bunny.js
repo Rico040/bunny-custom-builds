@@ -2898,7 +2898,7 @@
       init_logger();
       init_toasts();
       import_react_native4 = __toESM(require_react_native());
-      versionHash = "a0421ac-local";
+      versionHash = "0353fdb-local";
     }
   });
 
@@ -7908,7 +7908,7 @@
           },
           rawTabsConfig: {
             useTrailing: function() {
-              return `(${"a0421ac-local"})`;
+              return `(${"0353fdb-local"})`;
             }
           }
         },
@@ -8432,7 +8432,7 @@
       alert([
         "Failed to load Bunny!\n",
         `Build Number: ${ClientInfoManager2.Build}`,
-        `Bunny: ${"a0421ac-local"}`,
+        `Bunny: ${"0353fdb-local"}`,
         stack || e?.toString?.()
       ].join("\n"));
     }
